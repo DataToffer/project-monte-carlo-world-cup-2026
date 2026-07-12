@@ -1,0 +1,2 @@
+[console_scripts]
+pmcw = pmcw.cli:main

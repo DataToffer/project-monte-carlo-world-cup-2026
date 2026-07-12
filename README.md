@@ -1,0 +1,82 @@
+# Project Monte Carlo World Cup 2026
+
+Motor reproducible de simulación Monte Carlo para análisis de grupos, eliminatorias y eventos de jugador en fútbol.
+
+## Qué resuelve
+
+El proyecto no intenta adivinar un resultado único. Estima distribuciones de escenarios:
+
+- probabilidad de victoria, empate y derrota;
+- clasificación final de un grupo;
+- probabilidad Top 2;
+- marcadores más probables;
+- prórroga y penaltis;
+- eventos accesorios de jugador.
+
+## Arquitectura
+
+```text
+Inputs → Ratings → Lambdas → Poisson → Monte Carlo → Escenarios → Comunicación
+```
+
+## Instalación
+
+```bash
+python -m pip install -e .
+```
+
+## Ejemplo rápido
+
+```python
+from pmcw import MatchConfig, MatchSimulation
+
+config = MatchConfig(
+    home_team="Spain",
+    away_team="Austria",
+    lambda_home=1.510199562,
+    lambda_away=0.896117482,
+    n_simulations=100_000,
+    seed=20260702,
+)
+
+result = MatchSimulation(config).run().summary()
+print(result)
+```
+
+## Análisis incluidos
+
+| Análisis | Modelo |
+|---|---|
+| Grupo H, actualización España | `team_proxy_v1` |
+| Grupo K, Portugal | `team_proxy_v1` |
+| España vs Austria | `player_based_v1` |
+| Portugal vs Croacia + Cristiano | `player_based_v1` + `player_event_v1` |
+
+## Estructura
+
+```text
+pmcw/        Motor reutilizable
+tests/       Validación automática
+notebooks/   Casos reproducibles
+examples/    Ejecuciones mínimas
+analyses/    Informes y resultados
+data/        Workbooks maestros y procesados
+docs/        Metodología y documentación
+```
+
+## Principios del proyecto
+
+- 100.000 simulaciones por análisis.
+- Seed documentada.
+- Proxies y estimaciones etiquetados.
+- Misma arquitectura entre análisis.
+- Probabilidad no equivale a certeza.
+- Resultados reales ya jugados se fijan, no se resimulan.
+
+## Estado
+
+Versión `3.0.0`: motor modular, tests, notebooks, CLI y GitHub Actions.
+
+## Autor
+
+Juan Fernando Sánchez

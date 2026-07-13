@@ -1,0 +1,14 @@
+metric,value
+spain_win_90,0.36783
+draw_90,0.27357
+france_win_90,0.35860
+mean_goals_spain,1.22263
+mean_goals_france,1.20288
+over_2_5,0.43682
+both_teams_score,0.49577
+spain_win_extra_time,0.06038
+france_win_extra_time,0.05981
+goes_to_penalties,0.15338
+spain_win_penalties,0.07600
+spain_advances,0.50421
+france_advances,0.49579

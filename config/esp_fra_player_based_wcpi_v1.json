@@ -1,0 +1,56 @@
+{
+  "analysis_id": "ESP_FRA_SF_2026",
+  "model_version": "player_based_wcpi_v1",
+  "snapshot_date": "2026-07-12",
+  "n_simulations": 100000,
+  "seed": 20260712,
+  "extra_time_factor": 0.85,
+  "penalty_spain_probability": 0.5,
+  "coefficients": {
+    "base_goals": 1.25,
+    "attack_defense": 0.025,
+    "midfield": 0.012,
+    "wcpi": 0.01,
+    "goalkeeper": 0.01,
+    "min_lambda": 0.25
+  },
+  "wcpi_weights": {
+    "attack": 0.3,
+    "midfield": 0.28,
+    "defense": 0.22,
+    "goalkeeper": 0.1,
+    "bench": 0.1
+  },
+  "team_indices": {
+    "ESP": {
+      "attack": 85.8902,
+      "midfield": 87.1296,
+      "defense": 81.2455,
+      "goalkeeper": 88.767,
+      "bench": 75.0806,
+      "wcpi": 84.4221
+    },
+    "FRA": {
+      "attack": 85.9586,
+      "midfield": 84.8122,
+      "defense": 82.2554,
+      "goalkeeper": 90.0,
+      "bench": 74.2043,
+      "wcpi": 84.0516
+    }
+  },
+  "lambdas": {
+    "ESP": 1.222383,
+    "FRA": 1.198645
+  },
+  "scenario_policy": {
+    "rodri": "included_in_baseline",
+    "pedri": "not_used_as_positive_scenario",
+    "active": [
+      "nico_60_70_minutes",
+      "merino_bench_impact",
+      "mbappe_limited",
+      "combined"
+    ]
+  }
+}

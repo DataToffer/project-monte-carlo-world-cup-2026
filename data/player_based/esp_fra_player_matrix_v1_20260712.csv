@@ -1,0 +1,33 @@
+team,player,position,role,minutes_weight,attack,midfield,defense,goalkeeper,physical,form,experience
+ESP,Unai Simon,GK,starter,0.95,42,50,72,89,78,84,86
+ESP,Pedro Porro,DEF,starter,0.88,81,82,79,35,85,84,82
+ESP,Pau Cubarsi,DEF,starter,0.92,68,82,88,35,78,86,78
+ESP,Laporte,DEF,starter,0.90,67,79,88,35,79,83,88
+ESP,Cucurella,DEF,starter,0.90,76,82,85,35,86,84,85
+ESP,Rodri,MID,starter,0.96,82,95,89,35,84,86,92
+ESP,Fabian Ruiz,MID,starter,0.86,82,88,77,35,80,88,87
+ESP,Dani Olmo,MID,starter,0.86,88,87,66,35,78,86,86
+ESP,Lamine Yamal,ATT,starter,0.94,93,88,55,35,82,89,76
+ESP,Alex Baena,ATT,starter,0.78,86,84,62,35,76,86,78
+ESP,Oyarzabal,ATT,starter,0.84,87,82,68,35,77,87,87
+ESP,Pedri,MID,impact,0.45,86,94,74,35,78,88,86
+ESP,Merino,MID,impact,0.42,80,86,81,35,86,87,84
+ESP,Nico Williams,ATT,impact,0.40,90,82,58,35,89,78,79
+ESP,Zubimendi,MID,impact,0.28,72,84,82,35,78,80,82
+ESP,Raya,GK,backup,0.08,40,48,70,86,77,81,83
+FRA,Maignan,GK,starter,0.95,40,52,74,90,82,88,87
+FRA,Kounde,DEF,starter,0.90,76,82,86,35,85,85,86
+FRA,Upamecano,DEF,starter,0.72,65,76,87,35,88,82,84
+FRA,Saliba,DEF,starter,0.72,66,80,90,35,86,84,84
+FRA,Digne,DEF,starter,0.82,75,80,80,35,80,82,88
+FRA,Manu Kone,MID,starter,0.84,76,84,82,35,88,85,78
+FRA,Rabiot,MID,starter,0.88,80,86,82,35,85,86,89
+FRA,Dembele,ATT,starter,0.92,92,87,55,35,85,91,85
+FRA,Olise,ATT,starter,0.88,89,88,58,35,80,88,80
+FRA,Doue,ATT,starter,0.80,88,84,57,35,82,88,72
+FRA,Mbappe,ATT,starter,0.96,97,88,50,35,93,96,94
+FRA,Konate,DEF,impact,0.38,62,74,88,35,89,81,84
+FRA,Lacroix,DEF,impact,0.24,60,72,82,35,90,79,74
+FRA,Barcola,ATT,impact,0.38,89,82,54,35,88,84,76
+FRA,Tchouameni,MID,impact,0.30,78,87,86,35,88,82,84
+FRA,Camavinga,MID,impact,0.35,80,88,84,35,90,83,80

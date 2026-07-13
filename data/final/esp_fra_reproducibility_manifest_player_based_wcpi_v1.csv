@@ -1,0 +1,17 @@
+artifact,path,status
+analysis_readme,analyses/esp_fra_2026/README.md,official
+configuration,config/esp_fra_player_based_wcpi_v1.json,official
+player_matrix,data/player_based/esp_fra_player_matrix_v1_20260712.csv,official
+team_indices,data/model_inputs/esp_fra_team_indices_player_based_wcpi.csv,official
+simulation_results,data/simulations/esp_fra_results_player_based_wcpi.csv,official
+scorelines,data/simulations/esp_fra_scorelines_player_based_wcpi.csv,official
+scenario_results,data/simulations/esp_fra_scenarios_player_based_wcpi.csv,official
+index_builder,src/esp_fra/build_player_indices.py,official
+match_simulator,src/esp_fra/simulate_match.py,official
+scenario_analysis,src/esp_fra/scenario_analysis.py,official
+notebook,notebooks/ESP_FRA_player_based_WCPI.ipynb,official
+methodology,docs/methodology/ESP_FRA_PLAYER_BASED_WCPI_V1.md,official
+tests,tests/test_esp_fra_player_based_wcpi.py,official
+executive_pdf,outputs/reports/PMCW_ESP_FRA_Resumen_Ejecutivo_Player_Based_WCPI.pdf,official
+master_workbook,outputs/workbooks/PMCW_MASTER_MODEL_v1_ESP_FRA_player_based_WCPI_SCENARIOS.xlsx,official
+linkedin_carousel,outputs/carousels/PMCW_ESP_FRA_Carrusel_LinkedIn.pdf,official

@@ -1,0 +1,9 @@
+rank,player_id,player_name,goals,penalty_goals,knockout_goals,game_winning_goals,source_basis,quality_status
+1,ESP_MIKEL_OYARZABAL,Mikel Oyarzabal,5,1,3,1,Derived from verified FIFA match reports,verified_derived
+2,ESP_MIKEL_MERINO,Mikel Merino,2,0,2,2,Derived from verified FIFA match reports,verified_derived
+2,ESP_PEDRO_PORRO,Pedro Porro,2,0,2,0,Derived from verified FIFA match reports,verified_derived
+4,ESP_LAMINE_YAMAL,Lamine Yamal,1,0,0,0,Derived from verified FIFA match reports,verified_derived
+4,ESP_ALEX_BAENA,Alex Baena,1,0,0,1,Derived from verified FIFA match reports,verified_derived
+4,ESP_FABIAN_RUIZ,Fabian Ruiz,1,0,1,0,Derived from verified FIFA match reports,verified_derived
+4,ESP_FERRAN_TORRES,Ferran Torres,1,0,1,1,Derived from verified FIFA match reports,verified_derived
+NA,KSA_HASSAN_ALTAMBAKTI,Hassan Altambakti,1,0,0,0,Own goal credited to Spain team total,verified_derived

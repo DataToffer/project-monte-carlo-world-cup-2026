@@ -1,0 +1,1 @@
+match_id,player_id,player_name,starter,minutes_played,goals,assists,shots,shots_on_target,chances_created,passes_attempted,passes_completed,passing_accuracy,crosses,tackles,interceptions,recoveries,clearances,blocks,duels,duels_won,fouls_committed,fouls_received,yellow_cards,red_cards,saves,goals_conceded,source_id,source_url,retrieved_at,quality_status,notes

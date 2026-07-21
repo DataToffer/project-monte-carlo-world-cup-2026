@@ -1,0 +1,20 @@
+metric_id,metric_label,category,unit,value,coverage_matches,total_matches,coverage_pct,interpretation
+matches,Partidos disputados,Resultado,partidos,8,8,8,100.0,Número total de encuentros jugados.
+wins,Victorias,Resultado,partidos,7,8,8,100.0,Victorias considerando prórroga cuando corresponde.
+draws_90,Empates tras 90 minutos,Resultado,partidos,2,8,8,100.0,Empates al término del tiempo reglamentario.
+losses,Derrotas,Resultado,partidos,0,8,8,100.0,Derrotas finales en el torneo.
+goals_for,Goles a favor,Resultado,goles,14,8,8,100.0,Producción ofensiva total.
+goals_against,Goles en contra,Resultado,goles,1,8,8,100.0,Goles concedidos durante el torneo.
+goal_difference,Diferencia de goles,Resultado,goles,13,8,8,100.0,Balance total de goles.
+clean_sheets,Porterías a cero,Defensa,partidos,7,8,8,100.0,Partidos sin encajar gol.
+possession_pct,Posesión media,Control,%,65.37,6,8,75.0,Promedio de posesión en partidos con dato disponible.
+shots,Tiros por partido,Ataque,tiros,17,6,8,75.0,Volumen ofensivo medio por encuentro.
+opponent_shots,Tiros concedidos por partido,Defensa,tiros,5.17,6,8,75.0,Volumen ofensivo medio permitido al rival.
+shot_difference,Diferencia media de tiros,Ataque,tiros,11.83,6,8,75.0,Ventaja media en volumen de tiro.
+shots_per90,Tiros por 90 minutos,Ataque,tiros/90,16.17,6,8,75.0,Volumen de tiro normalizado por duración.
+xg,xG por partido,Ataque,xG,1.81,5,8,62.5,Calidad media de ocasiones generadas.
+opponent_xg,xG concedido por partido,Defensa,xG,0.24,5,8,62.5,Calidad media de ocasiones permitidas.
+xg_difference,Diferencia media de xG,Ataque,xG,1.57,5,8,62.5,Ventaja media en calidad de ocasiones.
+xg_per90,xG por 90 minutos,Ataque,xG/90,1.69,5,8,62.5,xG normalizado por duración.
+goals_minus_xg,Goles menos xG,Eficiencia,goles,0.96,5,8,62.5,Diferencia acumulada entre goles reales y xG en partidos con cobertura.
+stat_coverage_pct,Cobertura estadística media,Calidad,%,70,8,8,100.0,Porcentaje medio de campos estadísticos disponibles por partido.

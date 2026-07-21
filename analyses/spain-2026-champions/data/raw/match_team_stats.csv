@@ -1,0 +1,1 @@
+match_id,team_id,team_name,is_spain,goals,xg,possession_pct,possession_control_pct,shots,shots_on_target,shots_off_target,blocked_shots,big_chances,passes_attempted,passes_completed,passing_accuracy,corners,offsides,fouls,yellow_cards,red_cards,tackles,interceptions,recoveries,clearances,blocks,saves,source_id,source_url,retrieved_at,quality_status,notes

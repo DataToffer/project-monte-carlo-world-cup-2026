@@ -1,0 +1,9 @@
+match_id,match_date,stage,opponent,duration_minutes,goals_for,goals_against,goal_difference,clean_sheet,possession_pct,shots,opponent_shots,shot_difference,shots_per90,opponent_shots_per90,xg,opponent_xg,xg_difference,xg_per90,opponent_xg_per90,goals_minus_xg,stat_coverage_pct,quality_status
+ESP_CPV_GS_20260615,2026-06-15,Group H,Cabo Verde,90,0,0,0,1,74.20,27.00,6.00,21.00,27.00,6.00,,,,,, ,60.0,verified_partial
+ESP_KSA_GS_20260621,2026-06-21,Group H,Arabia Saudi,90,4,0,4,1,67.00,22.00,3.00,19.00,22.00,3.00,2.30,0.14,2.16,2.30,0.14,1.70,100.0,verified_secondary_homogeneous
+ESP_URU_GS_20260626,2026-06-26,Group H,Uruguay,90,1,0,1,1,67.00,6.00,5.00,1.00,6.00,5.00,0.86,0.20,0.66,0.86,0.20,0.14,100.0,verified_secondary_homogeneous
+ESP_AUT_R32_20260702,2026-07-02,Round of 32,Austria,90,3,0,3,1,,,,,,,,,,,,0.0,verified_score_only
+ESP_POR_R16_20260706,2026-07-06,Round of 16,Portugal,90,1,0,1,1,,,,,,,,,,,,0.0,verified_score_only
+ESP_BEL_QF_20260710,2026-07-10,Quarter-final,Belgium,90,2,1,1,0,68.00,17.00,5.00,12.00,17.00,5.00,1.96,0.34,1.62,1.96,0.34,0.04,100.0,verified_secondary_homogeneous
+ESP_FRA_SF_20260714,2026-07-14,Semi-final,France,90,2,0,2,1,51.00,10.00,10.00,0.00,10.00,10.00,1.63,0.31,1.32,1.63,0.31,0.37,100.0,verified_secondary_homogeneous
+ESP_ARG_F_20260719,2026-07-19,Final,Argentina,120,1,0,1,1,65.00,20.00,2.00,18.00,15.00,1.50,2.29,0.22,2.07,1.72,0.17,-1.29,100.0,verified_secondary_homogeneous

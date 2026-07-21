@@ -1,0 +1,6 @@
+source_id,provider,source_type,data_category,title,url,official_flag,retrieval_date,coverage_start,coverage_end,license_or_terms,quality_status,notes
+SRC_FIFA_TOURNAMENT_STATS,FIFA,official,tournament_statistics,,,1,,,,,pending_validation,
+SRC_FIFA_MATCHES,FIFA,official,match_statistics,,,1,,,,,pending_validation,
+SRC_RFEF_SQUAD,RFEF,official,squad,,,1,,,,,pending_validation,
+SRC_SECONDARY_MATCH_STATS,TO_DEFINE,secondary,match_statistics,,,0,,,,,pending_validation,
+SRC_CONTEXT_MEDIA,TO_DEFINE,media,context,,,0,,,,,pending_validation,

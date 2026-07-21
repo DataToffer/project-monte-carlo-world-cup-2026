@@ -1,0 +1,20 @@
+metric_id,metric_label,category,unit,aggregation,value,total,average,minimum,maximum,coverage_matches,total_matches,coverage_pct,interpretation
+matches,Partidos disputados,Resultado,partidos,sum,8,8,1,1,1,8,8,100.0,Número total de encuentros jugados.
+wins,Victorias,Resultado,partidos,sum,7,7,0.88,0,1,8,8,100.0,Victorias considerando prórroga cuando corresponde.
+draws_90,Empates tras 90 minutos,Resultado,partidos,sum,2,2,0.25,0,1,8,8,100.0,Empates al término del tiempo reglamentario.
+losses,Derrotas,Resultado,partidos,sum,0,0,0,0,0,8,8,100.0,Derrotas finales en el torneo.
+goals_for,Goles a favor,Resultado,goles,sum,14,14,1.75,0,4,8,8,100.0,Producción ofensiva total.
+goals_against,Goles en contra,Resultado,goles,sum,1,1,0.13,0,1,8,8,100.0,Goles concedidos durante el torneo.
+goal_difference,Diferencia de goles,Resultado,goles,sum,13,13,1.63,0,4,8,8,100.0,Balance total de goles.
+clean_sheets,Porterías a cero,Defensa,partidos,sum,7,7,0.88,0,1,8,8,100.0,Partidos sin encajar gol.
+possession_pct,Posesión media,Control,%,mean,65.37,392.2,65.37,51,74.2,6,8,75.0,Promedio de posesión en partidos con dato disponible.
+shots,Tiros por partido,Ataque,tiros,mean,17,102,17,6,27,6,8,75.0,Volumen ofensivo medio por encuentro.
+opponent_shots,Tiros concedidos por partido,Defensa,tiros,mean,5.17,31,5.17,2,10,6,8,75.0,Volumen ofensivo medio permitido al rival.
+shot_difference,Diferencia media de tiros,Ataque,tiros,mean,11.83,71,11.83,0,21,6,8,75.0,Ventaja media en volumen de tiro.
+shots_per90,Tiros por 90 minutos,Ataque,tiros/90,mean,16.17,97,16.17,6,27,6,8,75.0,Volumen de tiro normalizado por duración.
+xg,xG por partido,Ataque,xG,mean,1.81,9.04,1.81,0.86,2.3,5,8,62.5,Calidad media de ocasiones generadas.
+opponent_xg,xG concedido por partido,Defensa,xG,mean,0.24,1.21,0.24,0.14,0.34,5,8,62.5,Calidad media de ocasiones permitidas.
+xg_difference,Diferencia media de xG,Ataque,xG,mean,1.57,7.83,1.57,0.66,2.16,5,8,62.5,Ventaja media en calidad de ocasiones.
+xg_per90,xG por 90 minutos,Ataque,xG/90,mean,1.69,8.47,1.69,0.86,2.3,5,8,62.5,xG normalizado por duración.
+goals_minus_xg,Goles menos xG,Eficiencia,goles,sum,0.96,0.96,0.19,-1.29,1.7,5,8,62.5,Diferencia acumulada entre goles reales y xG en partidos con cobertura.
+stat_coverage_pct,Cobertura estadística media,Calidad,%,mean,70,560,70,0,100,8,8,100.0,Porcentaje medio de campos estadísticos disponibles por partido.

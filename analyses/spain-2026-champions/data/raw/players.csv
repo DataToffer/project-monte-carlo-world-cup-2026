@@ -1,1 +1,27 @@
 player_id,player_name,shirt_number,position,position_group,club,date_of_birth,age_at_tournament_start,squad_status,source_id,source_url,retrieved_at,quality_status,notes
+ESP_UNAI_SIMON,Unai Simon,,Goalkeeper,GK,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,Shirt number and biographical attributes pending dedicated official-source capture.
+ESP_DAVID_RAYA,David Raya,,Goalkeeper,GK,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,Shirt number and biographical attributes pending dedicated official-source capture.
+ESP_JOAN_GARCIA,Joan Garcia,,Goalkeeper,GK,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,Shirt number and biographical attributes pending dedicated official-source capture.
+ESP_PEDRO_PORRO,Pedro Porro,,Defender,DEF,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,
+ESP_MARCOS_LLORENTE,Marcos Llorente,,Defender,DEF,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,
+ESP_AYMERIC_LAPORTE,Aymeric Laporte,,Defender,DEF,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,
+ESP_PAU_CUBARSI,Pau Cubarsi,,Defender,DEF,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,
+ESP_MARC_PUBILL,Marc Pubill,,Defender,DEF,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,
+ESP_ERIC_GARCIA,Eric Garcia,,Defender,DEF,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,
+ESP_MARC_CUCURELLA,Marc Cucurella,,Defender,DEF,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,
+ESP_ALEJANDRO_GRIMALDO,Alejandro Grimaldo,,Defender,DEF,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,
+ESP_RODRI,Rodrigo Hernandez,,Midfielder,MID,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,Commonly known as Rodri.
+ESP_MARTIN_ZUBIMENDI,Martin Zubimendi,,Midfielder,MID,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,
+ESP_PEDRI,Pedri Gonzalez,,Midfielder,MID,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,Commonly known as Pedri.
+ESP_FABIAN_RUIZ,Fabian Ruiz,,Midfielder,MID,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,
+ESP_MIKEL_MERINO,Mikel Merino,,Midfielder,MID,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,
+ESP_GAVI,Pablo Paez Gavi,,Midfielder,MID,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,Commonly known as Gavi.
+ESP_ALEX_BAENA,Alex Baena,,Midfielder,MID,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,
+ESP_MIKEL_OYARZABAL,Mikel Oyarzabal,,Forward,ATT,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,
+ESP_LAMINE_YAMAL,Lamine Yamal,,Forward,ATT,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,
+ESP_FERRAN_TORRES,Ferran Torres,,Forward,ATT,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,
+ESP_BORJA_IGLESIAS,Borja Iglesias,,Forward,ATT,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,
+ESP_DANI_OLMO,Dani Olmo,,Forward,ATT,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,
+ESP_VICTOR_MUNOZ,Victor Munoz,,Forward,ATT,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,
+ESP_NICO_WILLIAMS,Nico Williams,,Forward,ATT,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,
+ESP_YEREMY_PINO,Yeremy Pino,,Forward,ATT,,,,final_squad,FIFA_SPAIN_SQUAD,https://www.fifa.com/en/articles/spain-squad-announcement-luis-de-la-fuente,2026-07-21,verified_official,

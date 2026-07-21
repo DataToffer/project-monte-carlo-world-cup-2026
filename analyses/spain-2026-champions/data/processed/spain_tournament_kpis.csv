@@ -1,0 +1,20 @@
+kpi_id,kpi_name,value,unit,formula,source_fields,status,notes
+matches_played,Matches played,8,matches,COUNT(matches.match_id),matches.match_id,derived_verified,Includes final after extra time.
+final_wins,Final-result wins,7,matches,COUNT(result_final='W'),matches.result_final,derived_verified,The final is counted as a win after extra time.
+wins_in_90,Wins in 90 minutes,6,matches,COUNT(result_90='W'),matches.result_90,derived_verified,
+win_rate_final,Final-result win rate,87.5,percent,final_wins/matches_played*100,final_wins;matches_played,derived_verified,
+goals_for,Goals scored,14,goals,SUM(matches.goals_for),matches.goals_for,derived_verified,Matches official FIFA tournament total.
+goals_against,Goals conceded,1,goals,SUM(matches.goals_against),matches.goals_against,derived_verified,Matches official FIFA tournament record.
+goal_difference,Goal difference,13,goals,goals_for-goals_against,goals_for;goals_against,derived_verified,
+goals_per_match,Goals per match,1.75,goals_per_match,goals_for/matches_played,goals_for;matches_played,derived_verified,
+goals_conceded_per_match,Goals conceded per match,0.125,goals_per_match,goals_against/matches_played,goals_against;matches_played,derived_verified,
+clean_sheets,Clean sheets,7,matches,SUM(matches.clean_sheet),matches.clean_sheet,verified_official,Also reported as tournament-leading total by FIFA.
+clean_sheet_rate,Clean-sheet rate,87.5,percent,clean_sheets/matches_played*100,clean_sheets;matches_played,derived_verified,
+attempts_at_goal,Attempts at goal,140,attempts,FIFA final tournament aggregate,tournament_benchmark.shots,verified_official,Spain ranked first.
+attempts_per_match,Attempts per match,17.5,attempts_per_match,attempts_at_goal/matches_played,attempts_at_goal;matches_played,derived_verified,
+expected_goals,Expected goals,17.48,xg,FIFA final tournament aggregate,tournament_benchmark.xg,verified_official,Spain ranked first.
+xg_per_match,Expected goals per match,2.185,xg_per_match,expected_goals/matches_played,expected_goals;matches_played,derived_verified,
+goals_minus_xg,Goals minus xG,-3.48,goals,goals_for-expected_goals,goals_for;expected_goals,derived_verified,Descriptive finishing differential, not a causal performance judgement.
+shot_conversion,Goal conversion per attempt,10.0,percent,goals_for/attempts_at_goal*100,goals_for;attempts_at_goal,derived_verified,
+possession_control,Possession control,58,percent,FIFA final tournament aggregate,tournament_benchmark.possession_control_pct,verified_official,Spain ranked joint first on the published value.
+passing_accuracy,Passing accuracy,90,percent,FIFA final tournament aggregate,tournament_benchmark.passing_accuracy,verified_official,Store as tournament aggregate; do not mix with match-level possession definitions.

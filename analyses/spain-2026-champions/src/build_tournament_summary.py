@@ -99,15 +99,15 @@ def build_summary() -> pd.DataFrame:
     metric_specs = [
         ("possession_pct", "Posesión media", "Control", "%", "mean", "Promedio de posesión en partidos con dato disponible."),
         ("shots", "Tiros por partido", "Ataque", "tiros", "mean", "Volumen ofensivo medio por encuentro."),
-        ("shots_against", "Tiros concedidos por partido", "Defensa", "tiros", "mean", "Volumen ofensivo medio permitido al rival."),
+        ("opponent_shots", "Tiros concedidos por partido", "Defensa", "tiros", "mean", "Volumen ofensivo medio permitido al rival."),
         ("shot_difference", "Diferencia media de tiros", "Ataque", "tiros", "mean", "Ventaja media en volumen de tiro."),
         ("shots_per90", "Tiros por 90 minutos", "Ataque", "tiros/90", "mean", "Volumen de tiro normalizado por duración."),
         ("xg", "xG por partido", "Ataque", "xG", "mean", "Calidad media de ocasiones generadas."),
-        ("xg_against", "xG concedido por partido", "Defensa", "xG", "mean", "Calidad media de ocasiones permitidas."),
+        ("opponent_xg", "xG concedido por partido", "Defensa", "xG", "mean", "Calidad media de ocasiones permitidas."),
         ("xg_difference", "Diferencia media de xG", "Ataque", "xG", "mean", "Ventaja media en calidad de ocasiones."),
         ("xg_per90", "xG por 90 minutos", "Ataque", "xG/90", "mean", "xG normalizado por duración."),
         ("goals_minus_xg", "Goles menos xG", "Eficiencia", "goles", "sum", "Diferencia acumulada entre goles reales y xG en partidos con cobertura."),
-        ("data_coverage_pct", "Cobertura estadística media", "Calidad", "%", "mean", "Porcentaje medio de campos estadísticos disponibles por partido."),
+        ("stat_coverage_pct", "Cobertura estadística media", "Calidad", "%", "mean", "Porcentaje medio de campos estadísticos disponibles por partido."),
     ]
 
     for metric_id, label, category, unit, aggregation, interpretation in metric_specs:

@@ -1,0 +1,37 @@
+match_id,match_date,stage,opponent,metric_group,metric_name,metric_value,unit,duration_minutes,coverage_status
+ESP_CPV_GS_20260615,2026-06-15,Group H,Cabo Verde,Result,Goals for,0,goals,90,verified
+ESP_CPV_GS_20260615,2026-06-15,Group H,Cabo Verde,Control,Possession,74.2,percent,90,verified_partial
+ESP_CPV_GS_20260615,2026-06-15,Group H,Cabo Verde,Attack,Shots,27,count,90,verified_partial
+ESP_CPV_GS_20260615,2026-06-15,Group H,Cabo Verde,Defence,Opponent shots,6,count,90,verified_partial
+ESP_KSA_GS_20260621,2026-06-21,Group H,Arabia Saudi,Result,Goals for,4,goals,90,verified
+ESP_KSA_GS_20260621,2026-06-21,Group H,Arabia Saudi,Control,Possession,67,percent,90,verified_secondary
+ESP_KSA_GS_20260621,2026-06-21,Group H,Arabia Saudi,Attack,Shots,22,count,90,verified_secondary
+ESP_KSA_GS_20260621,2026-06-21,Group H,Arabia Saudi,Attack,xG,2.30,xg,90,verified_secondary
+ESP_KSA_GS_20260621,2026-06-21,Group H,Arabia Saudi,Defence,Opponent shots,3,count,90,verified_secondary
+ESP_KSA_GS_20260621,2026-06-21,Group H,Arabia Saudi,Defence,Opponent xG,0.14,xg,90,verified_secondary
+ESP_URU_GS_20260626,2026-06-26,Group H,Uruguay,Result,Goals for,1,goals,90,verified
+ESP_URU_GS_20260626,2026-06-26,Group H,Uruguay,Control,Possession,67,percent,90,verified_secondary
+ESP_URU_GS_20260626,2026-06-26,Group H,Uruguay,Attack,Shots,6,count,90,verified_secondary
+ESP_URU_GS_20260626,2026-06-26,Group H,Uruguay,Attack,xG,0.86,xg,90,verified_secondary
+ESP_URU_GS_20260626,2026-06-26,Group H,Uruguay,Defence,Opponent shots,5,count,90,verified_secondary
+ESP_URU_GS_20260626,2026-06-26,Group H,Uruguay,Defence,Opponent xG,0.20,xg,90,verified_secondary
+ESP_AUT_R32_20260702,2026-07-02,Round of 32,Austria,Result,Goals for,3,goals,90,verified
+ESP_POR_R16_20260706,2026-07-06,Round of 16,Portugal,Result,Goals for,1,goals,90,verified
+ESP_BEL_QF_20260710,2026-07-10,Quarter-final,Belgium,Result,Goals for,2,goals,90,verified
+ESP_BEL_QF_20260710,2026-07-10,Quarter-final,Belgium,Control,Possession,68,percent,90,verified_secondary
+ESP_BEL_QF_20260710,2026-07-10,Quarter-final,Belgium,Attack,Shots,17,count,90,verified_secondary
+ESP_BEL_QF_20260710,2026-07-10,Quarter-final,Belgium,Attack,xG,1.96,xg,90,verified_secondary
+ESP_BEL_QF_20260710,2026-07-10,Quarter-final,Belgium,Defence,Opponent shots,5,count,90,verified_secondary
+ESP_BEL_QF_20260710,2026-07-10,Quarter-final,Belgium,Defence,Opponent xG,0.34,xg,90,verified_secondary
+ESP_FRA_SF_20260714,2026-07-14,Semi-final,France,Result,Goals for,2,goals,90,verified
+ESP_FRA_SF_20260714,2026-07-14,Semi-final,France,Control,Possession,51,percent,90,verified_secondary
+ESP_FRA_SF_20260714,2026-07-14,Semi-final,France,Attack,Shots,10,count,90,verified_secondary
+ESP_FRA_SF_20260714,2026-07-14,Semi-final,France,Attack,xG,1.63,xg,90,verified_secondary
+ESP_FRA_SF_20260714,2026-07-14,Semi-final,France,Defence,Opponent shots,10,count,90,verified_secondary
+ESP_FRA_SF_20260714,2026-07-14,Semi-final,France,Defence,Opponent xG,0.31,xg,90,verified_secondary
+ESP_ARG_F_20260719,2026-07-19,Final,Argentina,Result,Goals for,1,goals,120,verified
+ESP_ARG_F_20260719,2026-07-19,Final,Argentina,Control,Possession,65,percent,120,verified_secondary
+ESP_ARG_F_20260719,2026-07-19,Final,Argentina,Attack,Shots per 90,15,count_per90,120,derived
+ESP_ARG_F_20260719,2026-07-19,Final,Argentina,Attack,xG per 90,1.72,xg_per90,120,derived
+ESP_ARG_F_20260719,2026-07-19,Final,Argentina,Defence,Opponent shots per 90,1.5,count_per90,120,derived
+ESP_ARG_F_20260719,2026-07-19,Final,Argentina,Defence,Opponent xG per 90,0.17,xg_per90,120,derived

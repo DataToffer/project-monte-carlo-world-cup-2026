@@ -1,0 +1,2 @@
+team,tournament,matches,final_wins,draws_after_90,losses,goals_for,goals_against,goal_difference,clean_sheets,attempts_at_goal,attempts_on_target,xg,corners,possession_control_pct,passes_attempted,passes_completed,passing_accuracy_pct,source,extracted_at
+Spain,FIFA World Cup 2026,8,7,1,0,14,1,13,7,140,54,17.48,54,58,5470,4945,90,FIFA final structured team statistics,2026-07-22

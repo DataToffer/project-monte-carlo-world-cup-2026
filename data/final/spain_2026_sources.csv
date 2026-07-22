@@ -1,0 +1,8 @@
+source_id,source_type,title,url,extracted_at,priority,notes
+FIFA_FIXTURES,official,FIFA Spain World Cup 2026 schedule and results,https://www.fifa.com/es/tournaments/mens/worldcup/canadamexicousa2026/articles/calendario-de-espana-en-la-copa-mundial-2026-encuentros-estadios-y-horarios,2026-07-22,1,Primary source for dates stages and results
+FIFA_TEAM_STATS,official,FIFA World Cup 2026 team statistics,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics,2026-07-22,1,Primary structured source for final team totals
+FIFA_PLAYER_STATS,official,FIFA World Cup 2026 player statistics,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics/player-statistics,2026-07-22,1,Primary structured source for player totals
+FIFA_KEY_STATS,official,FIFA World Cup 2026 key statistics,https://www.fifa.com/en/articles/fifa-world-cup-key-statistics,2026-07-22,1,Confirms passes and passes completed leaders
+FIFA_SPAIN_CHAMPIONS,official_editorial,The Spanish champions in stats,https://www.fifa.com/en/articles/spain-champions-stats-statistics,2026-07-22,2,Used for editorial records and milestones; contains Rodri discrepancy
+FIFA_SQUAD_NUMBERS,official,Spain shirt numbers World Cup 2026,https://www.fifa.com/es/tournaments/mens/worldcup/canadamexicousa2026/articles/dorsales-espana-mundial-2026,2026-07-22,1,Primary source for 26-player roster numbers
+FIFA_GOALS_SPAIN,official,All Spain goals World Cup 2026,https://www.fifa.com/es/articles/todos-goles-espana-copa-mundial-2026,2026-07-22,1,Primary narrative source for scorer reconciliation

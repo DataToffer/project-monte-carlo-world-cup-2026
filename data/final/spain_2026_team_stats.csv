@@ -1,0 +1,17 @@
+metric,value,unit,scope,source_status,notes
+matches,8,count,tournament,official_final,
+final_wins,7,count,tournament,derived_verified,Includes final won after extra time
+draws_after_90,1,count,tournament,derived_verified,Final was 0-0 after 90 minutes
+losses,0,count,tournament,official_final,
+goals_for,14,count,tournament,official_final,
+goals_against,1,count,tournament,official_final,
+goal_difference,13,count,tournament,derived_verified,goals_for minus goals_against
+clean_sheets,7,count,tournament,official_final,
+attempts_at_goal,140,count,tournament,official_final,
+attempts_on_target,54,count,tournament,official_final,
+xg,17.48,goals,tournament,official_final,
+corners,54,count,tournament,official_final,
+possession_control,58,percent,tournament,official_final,FIFA metric name Possession Control
+passes_attempted,5470,count,tournament,official_final,
+passes_completed,4945,count,tournament,official_final,
+passing_accuracy,90,percent,tournament,official_final,

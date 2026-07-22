@@ -1,16 +1,12 @@
 shirt_number,player_name,metric,value,unit,source_status,notes
-16,Rodri,passes,799,count,official_final_structured,FIFA table label is Passes
-16,Rodri,passes_completed,747,count,official_final_structured,FIFA final structured table
-16,Rodri,passes_completed_editorial,790,count,official_editorial_conflict,Do not use in dataset until FIFA resolves discrepancy
-22,Pau Cubarsi,passes,690,count,official_final_structured,
-22,Pau Cubarsi,passes_completed,668,count,official_final_structured,
-14,Aymeric Laporte,passes,660,count,official_final_structured,
-14,Aymeric Laporte,passes_completed,618,count,official_final_structured,
+16,Rodri,passes_completed,790,count,official_final,FIFA final tournament articles and records page
+22,Pau Cubarsi,passes_completed,668,count,official_final,FIFA final tournament article
+14,Aymeric Laporte,passes_completed,618,count,official_final,FIFA final tournament article
 24,Marc Cucurella,minutes_played,750,minutes,official_editorial,Joint-most among outfield players
 22,Pau Cubarsi,minutes_played,750,minutes,official_editorial,Joint-most among outfield players
-21,Mikel Oyarzabal,goals,5,count,official_editorial,Equalled Spain World Cup record
+21,Mikel Oyarzabal,goals,5,count,official_final,Equalled Spain World Cup record
 21,Mikel Oyarzabal,turnovers_forced,58,count,official_editorial,Tournament-high
-19,Lamine Yamal,completed_dribbles,35,count,official_editorial,Tournament-high
+19,Lamine Yamal,completed_dribbles,35,count,official_final,Tournament-high
 23,Unai Simon,clean_sheets,7,count,official_final,
 23,Unai Simon,consecutive_minutes_without_conceding,650,minutes,official_editorial,World Cup record
 16,Rodri,award,1,count,official_final,adidas Golden Ball

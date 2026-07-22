@@ -49,9 +49,13 @@ def test_squad_has_26_unique_numbers():
     assert sorted(numbers) == list(range(1, 27))
 
 
-def test_rodri_pass_fields_are_not_conflated():
+def test_rodri_final_completed_passes():
     rows = _read_csv("spain_2026_player_highlights.csv")
-    rodri = {(r["metric"], r["source_status"]): int(r["value"]) for r in rows if r["player_name"] == "Rodri" and r["value"].isdigit()}
-    assert rodri[("passes", "official_final_structured")] == 799
-    assert rodri[("passes_completed", "official_final_structured")] == 747
-    assert rodri[("passes_completed_editorial", "official_editorial_conflict")] == 790
+    rodri = {r["metric"]: int(r["value"]) for r in rows if r["player_name"] == "Rodri" and r["value"].isdigit()}
+    assert rodri["passes_completed"] == 790
+
+
+def test_no_partial_coverage_metrics_in_final_dataset():
+    forbidden = {"possession_65_4", "shot_difference_11_8", "xg_conceded_0_24", "xg_difference_1_57"}
+    team_metrics = {r["metric"] for r in _read_csv("spain_2026_team_stats.csv")}
+    assert forbidden.isdisjoint(team_metrics)

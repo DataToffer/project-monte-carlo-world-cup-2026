@@ -1,64 +1,82 @@
-# Auditoría de datos, España campeona del Mundial 2026
+# Auditoría y reconstrucción, España campeona del Mundial 2026
 
-Fecha de auditoría: 2026-07-22
+Fecha de reconstrucción: 2026-07-22
 
-## Hallazgo principal
+## Decisión
 
-El repositorio no contenía todavía una capa descriptiva final y consolidada del torneo completo. El último bloque de trabajo estaba centrado en la semifinal España-Francia y fue incorporado el 13 de julio de 2026, antes de la final.
+La capa descriptiva anterior queda invalidada. Se reconstruye desde cero usando exclusivamente datos finales posteriores a la final y fuentes oficiales de FIFA. No se reutilizan promedios parciales ni cortes previos del torneo.
 
-Por tanto, las cifras del carrusel final no deben considerarse validadas contra el repositorio hasta completar esta auditoría.
+## Jerarquía de fuentes
 
-## Corrección crítica: Rodri
+1. Tabla estadística final estructurada de FIFA.
+2. Informes oficiales de cada partido de FIFA.
+3. Artículos finales de estadísticas de FIFA.
+4. RFEF, únicamente para complementar eventos no disponibles en FIFA.
 
-La estadística correcta distingue entre:
+Cuando dos fuentes oficiales discrepan, el dato no se fuerza: se registra la discrepancia y no se publica hasta resolverla.
 
-- Pases intentados: 799
-- Pases completados: 747
-- Precisión aproximada: 93,5%
+## Discrepancia crítica: Rodri
 
-No debe publicarse «790 pases completados». Esa cifra aparece en una pieza editorial de FIFA, pero entra en conflicto con la tabla estadística final de FIFA, que desglosa 799 pases y 747 completados. Para la base de datos se prioriza la tabla estadística final estructurada.
+FIFA mantiene dos valores incompatibles:
 
-## KPIs de equipo confirmados en la tabla final de FIFA
+- Tabla final estructurada: 799 pases y 747 pases completados.
+- Artículo editorial final: 790 pases completados.
 
-- Partidos: 8
-- Victorias finales: 7
-- Empates tras 90 minutos: 1
-- Derrotas: 0
-- Goles a favor: 14
-- Goles en contra: 1
-- Diferencia de goles: +13
-- Porterías a cero: 7
-- Remates: 140
-- Remates a puerta: 54
-- xG: 17,48
-- Córneres: 54
-- Control de la posesión: 58%
-- Pases intentados del equipo: 5.470
-- Pases completados del equipo: 4.945
-- Precisión de pase: 90%
+Por tanto:
 
-## Jugadores confirmados para el carrusel
+- No se utilizará «790 pases completados».
+- Tampoco se etiquetará «799» como pases completados mientras FIFA no aclare la discrepancia.
+- En la tabla maestra se conservarán los valores y la definición exacta de cada fuente en registros separados.
 
-- Rodri: 799 pases intentados, 747 completados
-- Pau Cubarsí: 690 pases intentados, 668 completados
-- Aymeric Laporte: 660 pases intentados, 618 completados
+## KPIs finales de equipo validados
 
-## Reglas de validación
+| Métrica | Valor |
+|---|---:|
+| Partidos | 8 |
+| Victorias finales | 7 |
+| Empates tras 90 minutos | 1 |
+| Derrotas | 0 |
+| Goles a favor | 14 |
+| Goles en contra | 1 |
+| Diferencia de goles | +13 |
+| Porterías a cero | 7 |
+| Remates | 140 |
+| Remates a puerta | 54 |
+| xG | 17,48 |
+| Córneres | 54 |
+| Control de la posesión | 58% |
+| Pases intentados de equipo | 5.470 |
+| Pases completados de equipo | 4.945 |
+| Precisión de pase | 90% |
 
-1. No mezclar cortes temporales de estadísticas publicados antes y después de la final.
-2. Diferenciar siempre pases intentados de pases completados.
-3. Priorizar tablas finales estructuradas frente a artículos editoriales cuando exista contradicción.
-4. Conservar URL, fecha de consulta, campo original y definición de cada métrica.
-5. No rellenar valores ausentes ni derivar métricas sin dejar documentada la fórmula.
-6. No actualizar el carrusel ni el copy hasta cerrar la matriz de validación.
+## Trayectoria oficial corregida
 
-## Fuentes prioritarias
+| Fecha local | Fase | Partido | Resultado |
+|---|---|---|---:|
+| 15-06-2026 | Fase de grupos | España - Cabo Verde | 0-0 |
+| 21-06-2026 | Fase de grupos | España - Arabia Saudí | 4-0 |
+| 26-06-2026 | Fase de grupos | Uruguay - España | 0-1 |
+| 02-07-2026 | Dieciseisavos | España - Austria | 3-0 |
+| 06-07-2026 | Octavos | Portugal - España | 0-1 |
+| 10-07-2026 | Cuartos | España - Bélgica | 2-1 |
+| 14-07-2026 | Semifinal | Francia - España | 0-2 |
+| 19-07-2026 | Final | España - Argentina | 1-0, prórroga |
 
-- FIFA, estadísticas finales de equipos del Mundial 2026.
-- FIFA, estadísticas finales de jugadores del Mundial 2026.
-- FIFA, resumen de estadísticas clave del torneo.
-- FIFA y RFEF, resultados y eventos oficiales de los ocho partidos de España.
+## Reglas para Tableau y el carrusel
+
+1. Una fila por entidad y nivel de granularidad.
+2. Separar estadísticas de equipo, partido, jugador y evento.
+3. Guardar nombre original del campo, definición, unidad, URL, fecha de extracción y estado de validación.
+4. No mezclar totales del torneo con medias por partido.
+5. No convertir ausencias en cero.
+6. No publicar una cifra con discrepancia abierta.
+7. Todos los KPIs del carrusel deben poder reconciliarse contra la tabla maestra.
+
+## Archivos reconstruidos
+
+- `data/final/spain_2026_team_summary.csv`
+- `data/final/spain_2026_matches.csv`
 
 ## Estado
 
-Auditoría abierta. Los datos confirmados de este documento pueden utilizarse como referencia provisional, pero la tabla completa para Tableau debe incluir el detalle por partido, jugador, métrica, fuente y fecha de extracción antes de considerarse cerrada.
+La tabla de equipo y la trayectoria de los ocho partidos quedan reconstruidas. La tabla completa de jugadores permanece bloqueada hasta extraer y validar todas las métricas finales de FIFA y resolver expresamente la discrepancia de Rodri.
